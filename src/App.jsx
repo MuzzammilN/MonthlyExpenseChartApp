@@ -114,7 +114,7 @@ function App() {
 
 
         <input type="number" placeholder="Enter Expense Total" className="border-black border-1 max-w-max content-center justify-center text-center" value={newExpense}   onChange={(e) => setNewExpense(e.target.value)}></input>
-        <input type="text" placeholder="Enter Expense Total of the Month" className="border-black border-1 max-w-max" value={newMonth} onChange={(e) => newSetMonth(e.target.value)}></input>
+        <input type="text" placeholder="Month" className="border-black border-1 max-w-max" value={newMonth} onChange={(e) => newSetMonth(e.target.value)}></input>
         <button className="bg-black text-white py-2 px-4 rounded-md text-bold" onClick={handleAddExpense}>Button</button>
 
 </div>
